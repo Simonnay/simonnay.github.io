@@ -1,0 +1,185 @@
+body {
+    font-family: "massilia";
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
+    margin: 0px 0px;
+}
+
+h1 {
+    font-family: "garamond-premier-pro-display";
+    font-size: 72px;
+    font-weight: 400;
+    justify-items: center;
+    gap: 5px;
+    ;
+    margin-block-end: 24px;
+    margin-block-start: 1px;
+}
+
+
+h2 {
+    font-family: "massilia";
+    font-size: 40px;
+    color: rgb(254, 255, 227);
+    grid-template-columns: 1fr 1fr;
+
+}
+
+h3 {
+    font-family: "garamond-premier-pro-display";
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-bottom: 0.5px solid rgb(0, 0, 0);
+    /* ligne */
+    align-items: stretch;
+    /* emplacement dans la page */
+
+}
+
+h4 {
+    font-family: "massilia";
+    font-weight: 300;
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.grid img {
+    transform: scale(0.8);
+    transition: 0.5s ease-in-out;
+}
+
+/* transition photo */
+
+.grid img:hover {
+    transform: scale(1);
+}
+
+/* taille du zoom */
+
+
+.grid-main {
+    display: grid;
+    /* grid-template-columns: 500px 1fr; */
+    font-family: "Satoshi-Light", sans-serif;
+    /* text-align: center; */
+    border-bottom: 0.5px solid rgb(254, 255, 227);
+    /* ligne */
+    align-items: stretch;
+    /* emplacement dans la page */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+}
+
+@media (min-width:950px) {
+    .grid-main{
+        grid-template-columns: 500px 1fr;
+    }
+}
+.grid-main-2 {
+    display: grid;
+    /* grid-template-columns: 350px 50fr; */
+
+    background-color: rgb(245, 245, 245);
+    grid-template-columns: 350px 1fr;
+    /* margin: 10px; */
+    font-family: "Satoshi-Light", sans-serif;
+    /* text-align: center; */
+    /* border-bottom: 0.5px solid rgb(254, 255, 227); */
+    /* ligne */
+    align-items: stretch;
+    /* emplacement dans la page */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+    gap: 24px 0px;
+
+}
+
+
+
+.grid-projet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 0.5px solid rgb(0, 0, 0);
+    align-items: stretch;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 11px;
+    /* margin-left: 24px; */
+}
+
+.grid-projet:hover {
+    background: black;
+    color: rgb(245, 245, 245);
+}
+
+/* taille de la grille */
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grille photo */
+    background: black;
+    border: 0px;
+    padding: 7% 9%;
+}
+
+/* paramètre grille */
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: black;
+    border: 0px;
+    margin: 0px;
+}
+
+/* paramètre grille */
+
+
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+    justify-items: center;
+    width: 100%;
+
+}
+
+.sticky {
+    font-family: "massilia";
+    position: sticky;
+    top: 32px;
+    display: grid;
+    /* gap: 24px; */
+}
+
+.header .sticky {
+    position: sticky;
+    top: auto;
+    display: grid;
+}
+
+.header .sticky {
+    top: 15px;
+}
+
+footer {
+
+    padding: 20px;
+    text-align: center;
+  }
