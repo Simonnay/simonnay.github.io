@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean-jour</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ktk1mcn.css">
+</head>
+<body>
+    <div class="grid-main-2">
+        <header class="header"style="padding: 24px;">
+         <div class="sticky">
+            <h1>Jean-jour</h1>
+            <a class="blablabla" href="index.html">
+                <h3>← retour</h3>
+        </a>
+
+                <h4><a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore rerum et quam, voluptate libero reiciendis, accusamus vel qui voluptatibus asperiores delectus architecto. Qui possimus at velit nobis, vero vel.
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore rerum et quam, voluptate libero reiciendis, accusamus vel qui voluptatibus asperiores delectus architecto. Qui possimus at velit nobis, vero vel.
+                </a>
+                </h4>
+
+                
+            </div>
+        </header>
+
+        <div class="grid-2">
+            <!-- image -->
+
+                <img src="voiture_chemin_soleil_02.png" alt="mockup_affiche_risographie">
+                <img src="voiture_didier_fume_01.png" alt="mockup_affiche_risographie">
+                <img src="voiture_sortie_chemin_drone_02.png" alt="mockup_affiche_risographie">
+                <img src="piano_didier_02.png" alt="piano">
+                <img src="plante_piano_02.png" alt="piano">
+            
+        </div>
+        
+    
+</body>
+</html>
