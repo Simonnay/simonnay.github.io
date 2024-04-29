@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silencieux ?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ktk1mcn.css">
+</head>
+<body>
+        <div class="grid-main-2">
+        <header class="header"style="padding: 24px;">
+         <div class="sticky">
+            <h1>Où sont elles ?</h1>
+            <a class="blablabla" href="index.html">
+                <h3>← retour</h3>
+            </a>
+    
+                    <h4><a>
+                        Commande du musée des arts et métiers, L’objectif était de revaloriser les inventions et le travail des femmes représentées dans ses collections, reconnaissant ainsi l’importance de leur contribution historique souvent négligée ou minimisée.
+                        <br><br>
+                        Le parcours de ses inventrices regorge d’anecdote hors du commun à mettre en avant.
+                        <br><br>
+                        J’ai hiérarchisé les visuels et les textes mis à notre disposition, de telle manière à ce que le visiteur soit happé par une image ou une phrase pour que dans un premier temps une information suscite sa curiosité et son envie d’en savoir plus.
+                    </a>
+                    </h4>
+    
+                    
+                </div>
+            </header>
+    
+            <div class="grid-2">
+                <!-- image -->
+    
+                  
+                    <img src="3_poster_ps.png" alt="mockup_affiche_risographie">
+                    <img src="alice_1.png" alt="mockup_affiche_risographie">
+                    <img src="hedy_1.png" alt="mockup_affiche_risographie">
+                    <img src="julia_1.png" alt="mockup_affiche_risographie">
+                    
+             
+            </div>
+        
+
+</body>
+</html>
